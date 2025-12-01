@@ -32,6 +32,20 @@ After rebooting, run the Flash Type installer again — it will install normally
 > **Note:** Disabling SAC does *not* disable Windows Defender, real-time protection, or your antivirus. It only turns off the strict Smart App Control layer.
 
 ---
+## 📸 Working Proof of Flash Type
+
+### 🔹 Main Screen
+![Main UI](Working_App_Screenshot.png)
+
+### 🔹 Settings Panel
+![Settings](Working_Image_setting.png)
+![Settings Page 2](Working_Image_setting2.png)
+
+### 🔹 Auto-Pasted Output
+![Pasted Result](Working_App_Screenshot-pasted-content.png)
+
+
+---
 
 ### Download & Install (Windows)
 

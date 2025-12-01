@@ -10,48 +10,78 @@ Whether you're writing a professional email, drafting a quick note, or creating 
 
 ## 📥 Installation
 
+### 🔴 If Windows Blocks the Installer (Smart App Control)
+
+Some versions of Windows 11 may block the installer with messages like:
+
+> “Smart App Control blocked an app that may be unsafe…”
+
+This happens because the Flash Type installer is **not digitally signed** yet — it doesn’t mean the app is unsafe.
+### Disable Smart App Control (Recommended for Installation)
+
+1. Open **Settings** (Win + I)
+2. Go to **Privacy & Security**
+3. Click **Windows Security**
+4. Click **App & browser control**
+5. Click **Smart App Control settings**
+6. Select **Off**
+7. **Restart your PC** (required)
+
+After rebooting, run the Flash Type installer again — it will install normally.
+
+> **Note:** Disabling SAC does *not* disable Windows Defender, real-time protection, or your antivirus. It only turns off the strict Smart App Control layer.
+
+---
+
 ### Download & Install (Windows)
 
 **Step 1: Get the Installer**
-- Download the latest `Flash Type Setup.exe` from the releases page
-- OR build it yourself (see "Building from Source" below)
+
+* Download the latest `Flash Type Setup.exe` from the releases page
+* OR build it yourself (see "Building from Source" below)
 
 **Step 2: Run the Installer**
 
 1. **Locate the installer**: Navigate to where you downloaded/built `Flash Type Setup 1.0.0.exe`
 
 2. **Run as Administrator** (Important!):
-   - Right-click on `Flash Type Setup 1.0.0.exe`
-   - Select **"Run as administrator"**
-   - Click "Yes" when Windows asks for permission
+
+   * Right-click on `Flash Type Setup 1.0.0.exe`
+   * Select **"Run as administrator"**
+   * Click "Yes" when Windows asks for permission
 
 3. **Antivirus Warning** (if prompted):
-   - If Windows Defender or your antivirus blocks the app, click "More info" → "Run anyway"
-   - Or temporarily pause real-time protection during installation
-   - This happens because the app isn't digitally signed (it's safe!)
+
+   * If Windows Defender or your antivirus blocks the app, click "More info" → "Run anyway"
+   * Or temporarily pause real-time protection during installation
+   * This happens because the app isn't digitally signed (it's safe!)
 
 4. **Complete the Setup**:
-   - Choose installation location (default is recommended: `C:\Users\[YourName]\AppData\Local\Programs\Flash Type`)
-   - Check "Create desktop shortcut" (recommended)
-   - Click "Install" and wait for completion
-   - Click "Finish" when done
+
+   * Choose installation location (default is recommended:
+     `C:\Users\[YourName]\AppData\Local\Programs\Flash Type`)
+   * Check "Create desktop shortcut" (recommended)
+   * Click "Install" and wait for completion
+   * Click "Finish" when done
 
 **Step 3: Launch Flash Type**
 
 1. Find the Flash Type icon on your desktop or in the Start Menu
-2. **First launch**: Right-click the shortcut → **"Run as administrator"** (helps with global hotkey registration)
-3. Look for the microphone icon in your system tray (bottom-right corner, near the clock)
+2. **First launch**: Right-click the shortcut → **"Run as administrator"**
+3. Look for the microphone icon in your system tray
 4. If the icon appears, the app is running successfully!
+5. ADD YOUR GROQ API KEY
 
 **Step 4: Verify the Hotkey Works**
 
-1. Open any text editor (Notepad, Word, email, etc.)
+1. Open any text editor
 2. Click in a text field
 3. Press **Ctrl+Alt+V**
-4. You should see a small recording window appear in the bottom-right corner
-5. If it works, you're all set! If not, see "Troubleshooting" below
+4. Recording window should appear
+5. If yes — you're all set!
 
 ---
+
 
 ### 🛠️ Building from Source (For Developers)
 

@@ -35,14 +35,15 @@ After rebooting, run the Flash Type installer again — it will install normally
 ## 📸 Working Proof of Flash Type
 
 ### 🔹 Main Screen
-![Main UI](Working_App_Screenshot.png)
+<img src="Working App Screenshot.png" width="400">
 
 ### 🔹 Settings Panel
-![Settings](Working_Image_setting.png)
-![Settings Page 2](Working_Image_setting2.png)
+
+<img src="Working_Image_setting.png" width="400">
+<img src="Working_Image_setting2.png" width="400">
 
 ### 🔹 Auto-Pasted Output
-![Pasted Result](Working_App_Screenshot-pasted-content.png)
+<img src="Working App Screenshot - pasted content.png" width="400">
 
 
 ---
